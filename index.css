@@ -1,0 +1,116 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family:"Baskervville",Arial, Helvetica, sans-serif
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: left;
+    color: rgb(254, 119, 88);
+    font-size: 50;
+    
+  }
+  h5 a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+  }
+  
+  .win {
+    color: white;
+    background-color: green;
+  }
+  
+  .loss {
+    color: white;
+    background-color: red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color:  #666;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+   
+    font-weight: bold;
+   
+  }
+  #guesses:hover {
+    background-color:rgb(218, 218, 185); /* Light background change on hover */
+    color: white; /* Change the text color to a shade of red */
+    cursor: pointer; /* Changes the cursor to a pointer when hovered */
+  }
+  
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid  #666;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color:  #666;
+      font-weight: bold;
+      
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid  #666;
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 20px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(241, 87, 67);
+    border-radius: 20px;
+    
+    
+  }
+  
+  .button:hover {background-color: rgb(218, 218, 185)}
+  
+  .button:active {
+    background-color: rgb(253, 253, 252);
+   
+    transform: translateY(4px);
+  }
